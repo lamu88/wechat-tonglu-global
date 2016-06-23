@@ -1,0 +1,8 @@
+$.cookie('the_cookie'); // 获得cookie
+$.cookie('the_cookie', 'the_value'); // 设置cookie
+$.cookie('the_cookie', 'the_value', { expires: 7 }); //设置带时间的cookie
+$.cookie('the_cookie', '', { expires: -1 }); // 删除
+$.cookie('the_cookie', null); // 删除 cookie
+
+
+

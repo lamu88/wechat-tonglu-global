@@ -1,0 +1,22 @@
+.clear{ clear:both}
+.contentbox table td{ font-size:12px;; border-bottom:1px dotted #B4C9C6; border-left:1px dotted #B4C9C6;} 
+.contentbox table th{background-color:#EEF2F5; font-size:12px}
+.contentbox table textarea,.contentbox table input{ font-size:12px;} 
+.contentbox a.thispage{ font-size:16px; font-weight:bold}
+.contentbox .label{ text-align:right; font-weight:bold; background-color:#EEF2F5; border-bottom:1px solid #B4C9C6; border-right:1px solid #B4C9C6}
+.contentbox .require-field{ color:#FF0000}
+.contentbox img{ cursor:pointer; border:1px solid #fff}
+.openwindow { position:absolute; left:30%; top:40%; padding-top:20px;height:50px; width:300px; text-align:center; background-color:#ededed; color:#FF6699; display:none}
+.contentbox table td .vieworder{ padding:2px; background-color:#FFF}
+.contentbox table td .vieworder:hover{ background-color:#66CCFF}
+/*弹出框的css*/
+.openwindow{ position:absolute;filter:alpha(opacity=80); -moz-opacity:0.8; -khtml-opacity:0.8;opacity:0.8;}
+.openwindow{ left:30%; top:70%;padding-left:20px;text-align:left; background:url(../images/loading.png) no-repeat;padding-top:18px;height:52px; width:240px;}
+
+.meswindow{ position:absolute;}
+.meswindow{ text-align:center;background-color:#FFF; border:2px solid #CCC;padding-top:0px; padding-bottom:15px;min-height:40px;height:auto; width:280px; z-index:9999;}
+.meswindow img.img{ border:none; float:right; cursor:pointer}
+.window_box{ height:100%; width:100%; background-color:#ededed; z-index:8888; position:absolute; top:0px; left:0px; display:none;}
+.meswindow .p_hear{ margin:0px; padding:3px; height:25px; line-height:25px;background-color:#9C0305; color:#FFF; font-weight:bold}
+.meswindow .p_hear span{ float:left; display:block; height:25px; line-height:25px; text-align:left}
+.meswindow .p_hear a{ float:right; display:block; height:25px; line-height:25px;width:32px; color:#fff; text-decoration:none}

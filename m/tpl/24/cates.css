@@ -1,0 +1,8 @@
+.cateindex .catesleft{ width:30%; float:left}
+.cateindex .catesright{ width:70%; float:right}
+.catesleft2{ border-top:1px solid #ccc; min-height:300px;}
+.catesleft2 li{ height:40px; line-height:40px; border-bottom:1px solid #ccc; text-align:center; overflow:hidden; background:#EFEFEF}
+.catesleft2 li a{ display:block;border-right:1px solid #ccc;}
+.catesleft2 li a:hover{ color:#FE0000}
+.catesleft2 li a.ac{ background:#FFF;  color:#FF4F03; border-right:none; border-left:3px solid #FF4F03}
+.cateindex .subcate a{ display:block; width:33.3%; float:left; text-align:center; font-size:14px}

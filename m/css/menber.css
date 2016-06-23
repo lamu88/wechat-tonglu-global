@@ -1,0 +1,82 @@
+.cro { color:#e05e7c}
+.cr2 { color:#ff699e; text-decoration:none}
+.cr5 { color:#e30000;text-decoration:none}
+.cr6 { color:#9a0000;text-decoration:none}
+.cr3 { color:#959595}
+.cr4 { color:#515151}
+.siz { font-size:12px}
+.weg { font-weight:bold}
+.loc_r{ text-align:right}
+.loc_l{ text-align: left}
+.weg b{ color: #ea0000;}
+.bg_grey{ background:#f6f6f6}
+.left{ float:left}
+.right{ float:right}
+img{ border:0 }
+
+.bordertest{ border:#F00 solid 1px;}
+.clear { 
+    font-size: 0px;
+    line-height: 0px;
+    display: block;
+    clear: both;
+}
+
+/*订单*/
+.order table{ text-align:center}
+ .order td{padding:5px;}
+
+ /*购物车*/   
+.cart1 p{ background:url(../theme/images/mycart.gif) no-repeat 0 0 ; width:1000px; height:58px; line-height:75px; text-indent:170px; color:#767676} 
+ .cart1 p u{  margin-left:85px; text-decoration:none} 
+  .cart1 table{ text-align:center ; color:#9a0000;	}
+  .cart1 td{line-height:20px; padding:5px 2px 5px 2px; } 
+   .cart1 td img{ border:0 }
+     .cart1 td a{ padding-top:5px;}
+ #tab {background:url(../theme/images/zp_top.gif) no-repeat 0 0; width:998px; } 
+  #tab li{width:100px; height:32px; margin:0px 0 0 0px; line-height:40px;}
+.free { width:944px;  margin:auto; padding:10px;}
+.free p{ background:none; height:10px; line-height:10px; text-indent:inherit; color:#e9197b; font-weight:bold} 
+  .free table{ text-align:center ; color:#5f5f5f;	}
+  .free td{line-height:20px; padding:10px 2px 5px 2px; } 
+
+.change { width:944px;  margin:auto; padding:10px;}
+.change p{ background:none; height:10px; line-height:10px; text-indent:inherit; color:#e9197b; font-weight:bold} 
+  .change table{ text-align:center ; color:#5f5f5f;	}
+  .change td{line-height:20px; padding:10px 2px 5px 2px; } 
+ /*购物车确认信息*/   
+  .cart2 p{background:#eaeaea; height:27px; line-height:27px; text-indent:10px;width:100%; color:#9a0000; font-weight:bold; margin:20px 0 0px 10px;} 
+  .cart2 table{ text-align:left ; color:#5f5f5f; margin:0 0 0 10px;}
+  .cart2 td{line-height:20px; padding:3px 2px 5px 2px; } 
+    .goodlist table{ text-align:center ; color:#585858;}
+  .goodlist td{line-height:20px; padding:3px 2px 5px 2px; } 
+ /*成功返回信息*/  
+  .cart3 .succmess{ height:350px; width:100%; margin:20px auto; background:url(../theme/images/tijio_bg.jpg) center center no-repeat} 
+
+  .c .intester{  width:990px; height:281px; margin-left:3px; padding-top:10px; height:300px;}
+  .intester dl{ width:173px; height:285px;  margin-left:23px; color:#777777; float:left}
+ .intester dt{ line-height:24px; text-indent:3px;} 
+  
+  .meswindow, .openwindow{ position:absolute;display:none,filter:alpha(opacity=80); -moz-opacity:0.8; -khtml-opacity:0.8;opacity:0.8;}
+.openwindow{ padding-left:20px;text-align:left; background:url(../theme/images/loading.png) no-repeat;padding-top:18px;height:52px; width:240px;}
+.meswindow{ text-align:center; background:#ededed; border:4px solid #ccc;padding-bottom:15px;min-height:40px;height:auto; width:280px;}
+.meswindow img.img{ border:none; float:right; cursor:pointer}
+
+.user_menu a{ color:#cf365a; text-decoration:none}
+
+
+.login_con{ width:250px; height:180px;}
+.login_con .login_mes{ color:#FF0000; height:25px; line-height:25px; text-align:center}
+.login_con input{ border:1px solid #FF33CC; height:20px;}
+.login_con input:hover{ border:1px solid #FFCC00;}
+.login_con .login_input{ position:relative}
+.login_con .login_input span.span1{ position:absolute; left:0px; bottom:4px;}
+.login_con .login_input span.span2{ position:absolute; left:0px; bottom:40px;}
+.login_con .login_box{ height:25px; line-height:25px; margin-top:20px;}
+.login_con input.loginbut{ border:none;width:62px; height:25px;background:url(../theme/images/but.png) no-repeat; background-color:none;cursor:pointer}
+
+.msgbtn{ background-color:#FFFFFF; border:none; background:url(../theme/images/but.png) center center no-repeat; width:60px; height:25px; cursor:pointer}
+
+.wrap_top_munu{ position:absolute; left:0px; top:40px; display:none; z-index:999;}
+
+

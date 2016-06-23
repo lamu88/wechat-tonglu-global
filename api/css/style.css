@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin:0px;
+	font-size:12px;
+	color:#333; 
+	font: normal 12px/1.5 Verdana,simsun,Sans-Serif;
+
+}
+a{
+	text-decoration:none;
+	outline:none;
+	cursor:pointer;
+	color:#333;
+}
+a:hover{
+	text-decoration:none;
+	outline:none;
+	cursor:pointer;
+	color:#D90000;
+}
+img{
+	border:none;
+}
+ul,li,h1,h2{
+	list-style:none;
+}
+div,ul,li,dl,dt,dd,p,form,h1,h2,input{
+	margin:0px;
+	padding:0px;
+	vertical-align: middle;
+}
+
+
+.clear{ clear:both}
+.clear10{ clear:both; height:10px;}
+
+/********************************************/
+

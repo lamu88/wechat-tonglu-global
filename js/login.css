@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+@charset "utf-8";
+/* CSS Document */
+
+*{ padding:0; margin:0;
+	list-style-type:none;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;} 如未指定，则内补丁和外补丁均为0，可解决90%的火狐不兼容问题代码。 
+body{font-size:12px; background:#AC956C;} 设置内容默认字体大小等，不建议在此控制行高。
+
+a:link,a:visited,a:active{ color:#333; text-decoration:none; font-size:12px;star:expression(this.onFocus=this.blur());} 
+a:hover{ color:#666; text-decoration:underline;font-size:12px;} 默认链接属性。
+a:focus {outline:0;}
+
+li{ list-style:none;} li去掉前面的点。 
+
+/*解决 IE6 下 img 多余 5 个像素的空白*/
+ul { width:280px; font-size:0; }
+
+ul li { display:block; height:57px; width:277px; }
+
+.bordertest{ border:#F00 solid 1px;}
+.clear { 
+    font-size: 0px;
+    line-height: 0px;
+    display: block;
+    clear: both;
+}
+.gehang { width:10px; height:10px; overflow:hidden; clear:both;}
+.gehang5 { width:6px; height:6px; overflow:hidden; clear:both;}
+.n_gehang { width:10px; height:6px; line-height:6px; overflow:hidden; clear:both;}
+.5gehang { width:10px; height:5px; line-height:5px; overflow:hidden; clear:both;}
+.top{ width:auto; background:url(../images/logtop_bg.gif) repeat-x 0 0; height:111px; }
+.top img{ margin-left:200px;border:0}
+.top a{ border:0} 
+.content { width:auto}
+.content p{ margin:15px 0 10px 200px;} 
+.content .dlk{ margin:30px 0 10px 250px;}
+.dlk .dlk_t{ background:url(../images/lg_top.gif) no-repeat 0 0; width:832px; height:45px; overflow:hidden}
+.dlk .dlk_m{ background:url(../images/lg_mid.gif) repeat-y 0 0 ; width:832px; overflow:hidden; background:#f7f7f7;}
+.dlk .dlk_b{ background:url(../images/lg_bottom.gif) no-repeat 0 0 ; width:832px; height:8px; overflow:hidden } 
+
+.dlk_m .dlk_cont_left{ float:left ; width:407px; }
+
+.dlk_cont_left p{ font-size:12px ; color:#6a6a6a; }
+.dlk_cont_left .text,.dlk_cont_right .text{ text-align:right; color:#6a6a6a}
+.dlk_cont_left .tis,.dlk_cont_left .tis{ color:#c0c0c0}
+.dlk_cont_left .al,.dlk_cont_right .al{ color:#ed0086}
+.bgline { background:url(../images/bgline.jpg) no-repeat 0 0 ; width:377px; height:14px; overflow:hidden; margin-left:10px;} 
+.input_30 { width:201px; height:20px; border: solid 1px #c0c0c0;}
+.input_10 { width:81px; height:20px;border: solid 1px #c0c0c0;}
+.dlk_m .dlk_cont_right{ float:right;}
+
+.pingtai{ margin:10px; }
+.pingtai a{ }
+.pingtai a img{ border:0px  }
+
+.foot{ border-top:#d7d7d7 solid 1px; }
+.foot p{ text-align:center ; padding:5px; color:#4f4f4f}
+
+

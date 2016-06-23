@@ -1,0 +1,206 @@
+#wrap{padding: 0 13px; overflow:hidden}
+.zi {
+position: relative;
+top: 25px;
+}
+.zi img {
+width: 90%;
+height: auto;
+margin-left: 3%;
+}
+.frame {
+height: 120px;
+padding: 30px 10px 10px;
+overflow: hidden;
+background: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#fff));
+border-radius: 5px 5px 0 0;
+}
+.frameCon {
+height: 120px;
+overflow: hidden;
+background: #d1d1d1;
+}
+.frameCon img {
+width: 100%;
+height: 100%;
+}
+.clearfix {
+display: block;
+}
+.clearfix:after {
+content: ".";
+display: block;
+height: 0;
+clear: both;
+visibility: hidden;
+}
+.frameBtn span.b2 {
+background: #fff;
+margin-bottom: 10px;
+color: #333;
+border-top: 1px solid #ccc;
+text-align: left;
+font-size: 14px;
+padding-left: 10px;
+border-radius: 0 0 5px 5px;
+}
+.frameBtn span {
+display: block;
+height: 34px;
+color: #fff;
+line-height: 34px;
+text-align: center;
+font-size: 18px;
+}
+.frameBtn span.b1 {
+color: #fff;
+font-weight: bold;
+background: #222;
+height: 50px;
+line-height: 50px;
+overflow: hidden;
+}
+.frameBtn i.icon-arrow-right {
+float: right;
+display: block;
+width: 30px;
+height: 30px;
+text-align: center;
+line-height: 30px;
+color: #333;
+background: url(../images/gz/r.png) center center no-repeat;
+}
+.frameBtn i {
+position: relative;
+top: 1px;
+margin-right: 5px;
+font-size: 18px;
+}
+.icon {
+font-family: 'icomoon';
+color: #fff;
+font-style: normal;
+}
+.frameBtn i.icon-export{background: url(../images/gz/jt.png) center top no-repeat; padding-left:18px; padding-top:0px}
+.icon-arrow-right:before {
+
+}
+.turnTime {
+height: 30px;
+line-height: 30px;
+background: rgba(0,0,0,0.5);
+color: #fff;
+margin-top: 10px;
+padding-left: 10px;
+font-size: 16px;
+}
+
+.turnBox {
+background: #fff;
+margin-top: 10px;
+}
+.turnBox h2 {
+height: 35px;
+overflow: hidden;
+line-height: 28px;
+background: url('../images/gz/spa.png') 0 bottom no-repeat;
+background-size: 175px 35px;
+padding-top: 10px;
+font-size: 18px;
+font-weight: bold;
+color: #fff;
+padding-left: 10px;
+}
+.boxCon {
+padding: 10px;
+line-height: 20px;
+}
+.rankMe {
+height: 30px;
+line-height: 30px;
+overflow: hidden;
+font-size: 16px;
+color: #330000;
+font-weight: bold;
+background: #e1ca8b;
+padding-left: 10px;
+}
+.rankMe span {
+color: #c4201b;
+}
+.rankMe {
+line-height: 30px;
+font-size: 16px;
+color: #330000;
+font-weight: bold;
+}
+table {
+margin-left: -1px;
+margin-top: 10px;
+width: 100%;
+border-collapse: collapse;
+border-spacing: 0px;
+display: table;
+border-color: gray;
+}
+table th:first-child {
+width: 20%;
+border-left: none;
+}
+table th {
+width: 20%;
+background: #e4ddce;
+height: 29px;
+border-left: 1px solid #ccc;
+border-bottom: 1px solid #ccc;
+font-weight: bold;
+}
+
+
+
+
+.popTit {
+height: 45px;
+line-height: 45px;
+overflow: hidden;
+background: #232324;
+color: #fff;
+text-align: center;
+font-weight: bold;
+font-size: 20px;
+position: relative;
+}
+.popTit i.back {
+left: 10px;
+background: url(../images/gz/back1.png) no-repeat;
+background-size: 29px 29px;
+}
+.popTit i {
+position: absolute;
+top: 8px;
+width: 29px;
+height: 29px;
+overflow: hidden;
+}
+.find_account {
+border: 1px solid #cccccc;
+margin: 10px;
+}
+.find_account_top {
+border-bottom: 1px solid #cccccc;
+font-size: 120%;
+padding: 5px;
+font-weight: bold;
+}
+.find_account_bot {
+padding: 5px;
+font-size: 12px;
+color: #333;
+}
+.find_account .red-font {
+color: red;
+font-weight: bold;
+}
+.find_account_bot_img img {
+width: 100%;
+}

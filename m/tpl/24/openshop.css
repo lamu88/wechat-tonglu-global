@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+*{padding:0px; margin:0px; list-style:none;}
+a{text-decoration:none; color:#000;}
+.top{width:100%; background-color:#ff008a; height:50px; line-height:50px; text-align:center; color:#FFF; border-bottom:2px solid #d20072;}
+.left{width:8%; margin-left:2%; float:left; margin-top:7px;}
+
+.banner{width:100%; height:460px;position:relative; overflow:hidden; border-bottom:1px solid #f1f1f1; border-top:1px solid #f1f1f1;}
+.banner ul{text-align:center; margin:auto}
+.banner ul li{height:460px;}
+
+.container{width:100%}
+.floor1{width:98%; margin:15px auto; border:2px solid #C30; border-radius:5px;}
+.blod{width:98%; height:35px; line-height:35px; font-size:19px; font-weight:800; color:#F90; text-align:center;}
+.goods{width:100%;}
+.tu{width:47%; float:left; margin-left:1.8%; border:1px solid #e1e1e1; margin-top:15px; margin-bottom:15px; overflow:hidden;}
+.but a{color:#fff;}
+.pic{width:90%; margin:auto; text-align:center;}
+.text{width:90%; margin:auto;}
+.title{}
+.feft{width:45%; float:left;}
+.xian{ color:#f72862; margin:6px auto;}
+.yuan{text-decoration:line-through;}
+.but{width:120px; height:30px; line-height:30px; text-align:center; background-color:#C30; color:#FFF; border-radius:6px; float:left; margin-top:6px;}
+#in{width:100%; text-align:center;}
+#in div{ margin-top:7px; margin-bottom:7px;}
+.butt{width:120px; height:30px; line-height:30px; text-align:center; background-color:#C30; color:#FFF; border-radius:7px; margin:10px auto;}
+.butt a{color:#fff;}

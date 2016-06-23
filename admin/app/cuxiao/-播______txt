@@ -1,0 +1,8 @@
+1、整点抢购
+   表：gz_cx_qianggou
+       id 唯一字段
+       salecount 销量
+       title 抢购标题
+       time_h 抢购时间
+       is_show 状态
+       time 发布时间

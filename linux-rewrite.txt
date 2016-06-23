@@ -1,0 +1,25 @@
+RewriteEngine On
+RewriteBase /zhongchen
+
+RewriteRule ^index\.html$ index\.php
+RewriteRule ^category-([0-9]+)\.html category\.php\?cid=$1
+RewriteRule ^category-([0-9]+)-([0-9]+)\.html category\.php\?cid=$1&colorid=$2	
+RewriteRule ^category-([0-9]+)-([0-9]+)_p([0-9]+)\.html$ category\.php\?cid=$1&colorid=$2&page=$3
+RewriteRule ^article-([0-9]+)\.html$ article\.php\?id=$1
+RewriteRule ^zaixianliuyan\.html$ feedback\.php
+RewriteRule ^youqinglianjie\.html$ friendlink\.php
+RewriteRule ^cuxiaogoods\.html$ goodscate\.php?keyword=is_promote
+RewriteRule ^pifa\.html$ pifa\.php
+RewriteRule ^pifa-([0-9]+)\.html$ pifa\.php\?pid=$1
+RewriteRule ^pifa_p([0-9]+)\.html$ pifa\.php\?page=$1
+RewriteRule ^goods-([0-9]+)\.html$ goods\.php\?id=$1
+RewriteRule ^goodscate-([0-9]+)\.html$ goodscate\.php\?cid=$1
+RewriteRule ^goodscate-([0-9]+)-([0-9]+)\.html$ goodscate\.php\?cid=$1&bid=$2
+RewriteRule ^brand-([0-9]+)\.html$ goodscate\.php\?bid=$1  [QSA,L]
+RewriteRule ^search-([^/\\\.]+)\.html$ goodscate\.php\?keyword=$1  [QSA,L]
+RewriteRule ^user-login\.html$ user\.php\?act=login
+RewriteRule ^user-register\.html$ user\.php\?act=register
+RewriteRule ^user-logout\.html$ user\.php\?act=logout
+RewriteRule ^user-forgetpass\.html$ user\.php\?act=forgetpass
+RewriteRule ^mycart.html$ mycart\.php
+RewriteRule ^mycart-checkout.html$ mycart\.php?type=checkout

@@ -1,0 +1,2 @@
+<?php $spendgift=array('0'=>array('gname'=>'消费300起赠品','minspend'=>'300'),'1'=>array('gname'=>'消费400起赠品','minspend'=>'400'),'2'=>array('gname'=>'消费500起赠品 ','minspend'=>'500'),'3'=>array('gname'=>'消费200起赠品 ','minspend'=>'200'));
+$__md5="";?>

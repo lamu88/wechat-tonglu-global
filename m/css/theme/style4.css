@@ -1,0 +1,70 @@
+a:hover {color:#48c072;}
+.menunav{
+/*-webkit-box-shadow: 0 -.1rem #fff inset;*/
+display: -webkit-box;
+width:65%; float:right;
+}
+.menunav a{
+display: block;
+-webkit-box-flex: 1;
+text-align: center;
+width: 100%;
+font-size: 12px;
+position: relative;
+}
+.menunav a i{
+display: block;
+width: 100%;
+height:43px;
+clear: both;
+}
+.menunav a:after {
+content: '';
+display: block;
+height: 40%;
+position: absolute;
+right: 0;
+top: 20%;
+}
+.logoqu{ background:#48c072}
+.menunav a{ color:#FFF}
+.indexitem .ptitle{background:url(../../images/4/dian2.jpg) 3px center no-repeat #FFF;}
+.indexitem .ptitle span{ margin:auto; text-align:left; padding-left:12px; display:inline;}
+.indexitem .ptitle span a{ color:#48c072}
+.buyfals{width:56px; height:22px; display:block; text-align:center; line-height:22px; font-size:12px; background:#48c072;border-radius:5px; position:absolute; bottom:13px; right:10px; z-index:10; color:#FFFFFF;}
+
+.addcar {background-color: #48c072;}
+.footers{ background:#fafafa; border-top:1px solid #ededed}
+.rexian{font-size:14px; color:#48c072}
+.footers p,.footers p a{ color:#666}
+
+#header { background:#48c072; border-bottom:1px solid #48c072}
+.shoptitle span{ text-shadow:none; font-size:14px}
+.mainhead .shopinfol p.gdesc{ color:#48c072}
+.price{ color:#48c072}
+.logoright p span{line-height:46px;background:#6dcd8f; width:85px; float:right; text-align:center; color:#FFF; font-size:14px; font-weight:bold}
+.logoright div{background: url(../../images/dian.png) right 17px no-repeat; position:relative;background-size:auto}
+.logoright div a{ height:47px; line-height:47px;}
+.logoright div .showmenu{  display:none;height:auto; width:120px; background:#ededed; position:absolute; right:-10px; top:47px; z-index:9; background:url(../../images/cbg.png) repeat;border-radius:0px 0px  5px 5px;}
+.logoright div .showmenu p{ text-shadow:none; height:24px; border-bottom:1px solid #e8e8e8; line-height:24px; text-align:center}
+.logoright div .showmenu p a{ height:24px; line-height:24px; width:100%; display:block; color:#666}
+.logoright div .showmenu p a:hover{ background:#ededed}
+
+.top_bar{ height:50px; border-top:1px solid #e8e8e8;background:#fafafa; position: fixed; z-index: 900; bottom: 0; left: 0; right: 0; margin: auto; font-family: Helvetica, Tahoma, Arial, Microsoft YaHei, sans-serif;padding-bottom:4px;}
+.top_menu{ height:50px;}
+.top_menu li{ cursor:pointer; width:20%; float:left; height:50px;}
+.top_menu li a{ display:block; text-align:center; padding-top:32px;}
+.top_menu li a label{ cursor:pointer; display:block; height:18px; line-height:18px;}
+.top_menu li.li1 a{ background:url(../../images/4/li1.png) center 5px no-repeat}
+.top_menu li.li1 a:hover{ background:url(../../images/4/li1_h.png) center 5px no-repeat}
+.top_menu li.li2 a{ background:url(../../images/4/li2.png) center 5px no-repeat}
+.top_menu li.li2 a:hover{ background:url(../../images/4/li2_h.png) center 5px no-repeat}
+.top_menu li.li5 a{ background:url(../../images/4/li4.png) center 5px no-repeat}
+.top_menu li.li5 a:hover{ background:url(../../images/4/li4_h.png) center 5px no-repeat}
+.top_menu li.li4 a{ background:url(../../images/4/li5.png) center 5px no-repeat}
+.top_menu li.li4 a:hover{ background:url(../../images/4/li5_h.png) center 5px no-repeat}
+.top_menu li.li3{ text-align:center;}
+.top_menu li.li3 a{ position:fixed; bottom:0px; right:auto; left:auto;z-index:999; margin:0 auto; color:#FFF;padding-top:40px; padding-right:2px;display:block; width:65px; height:27px;background:url(../../images/4/yy.png) center 0px no-repeat}
+.top_menu li.li3 a:hover{ background:url(../../images/4/yy_h.png) center 0px no-repeat}
+.loginbut{padding:5px; background:#48c072; color:#fff;width:100%; line-height:25px; cursor:pointer; font-weight:bold; border:none; font-size:14px}
+.top_menu li.li1 a,.top_menu li a label{ font-size:12px;}

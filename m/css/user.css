@@ -1,0 +1,57 @@
+#wrap{position:relative}
+.wrap_top_munu{ position:absolute; left:0px; top:0px; display:none; z-index:999}
+
+
+.m_left{ float:left; width:202px; border-left:1px solid #FCBF86; border-bottom:1px solid #FCBF86;overflow:hidden; background:url(../images/user_bg_y.gif) repeat-y right center; height:570px}
+.m_left .left_content h1{ height:34px; line-height:34px; margin:0px; padding:0px; font-size:14px;background:url(../images/menu_bg2.png) left center no-repeat; color:#FFF;} 
+.m_left .left_content h1 span{ float:left; padding-left:10px;}
+.m_left .left_content h1 b{ display:block; float:right; height:34px; width:5px;background:url(../images/user_bg_y.gif) repeat-y right center}
+.m_left .left_content h2{ height:25px; line-height:25px; margin:0px; font-size:12px; font-weight:400; color:#666; padding:3px 10px 0px 7px}
+.m_left .left_content h2 a{ display:block; height:100%; border-bottom:1px dotted #FCBF86; text-decoration:none;background:url(../images/jiantou.jpg) no-repeat 3px center; padding-left:15px}
+.m_right{ float:right; width:778px; padding:5px;overflow:hidden;}
+.m_right .con_title{border-bottom:2px solid #b70000; padding-left:10px; background:url(../images/san_left.jpg) no-repeat left center; margin-bottom:10px; color:#666}
+.m_right .right_top table{ line-height:20px; background-color:#ffdd9e; padding:5px}
+.m_right .right_notice{ margin-top:10px; background-color:#ffdd9e; padding:5px;}
+.m_right .right_notice table{ line-height:25px; color:#CC3300}
+.m_right .newpro{ margin-top:10px;}
+.m_right .newpro .newpro_t{ height:25px; line-height:25px; border-bottom:1px solid #b70000; font-size:16px; background-color:#fafafa; font-weight:bold; color:#666;padding-left:10px; background:url(../images/san_left.jpg) no-repeat left center;}
+.m_right .newpro .newpros{ padding-top:10px}
+.m_right .newpro dd{ float:left; border:1px solid #fff; margin-right:7px; margin-left:7px; padding:5px; text-align:center}
+.m_right .newpro dd:hover{ border:1px solid #b70000}
+.m_right .right_top .orderlist{ font-weight:bold}
+.m_right .right_top .orderlist b{ color:#FE0000}
+.m_right .right_top .order_title{ color:#b70000}
+.m_right .AJAXORDERLIST{ margin-top:10px}
+.m_right .AJAXORDERLIST table{ line-height:40px;}
+.m_right .AJAXORDERLIST table td{ text-align:center}
+.m_right .myaddress{ margin-top:10px}
+.m_right .myaddress p{ height:20px; line-height:20px; padding-bottom:10px}
+.m_right .myaddress table{ background-color:#FFDD9E; line-height:28px; border:1px solid #ccc; padding:5px 10px 5px 20px}
+.m_right .myaddress .add table{ border:1px solid #FED295;/* background-color:#fff;*/ margin-top:10px; padding-bottom:20px; line-height:30px}
+.m_right .myaddress .add table .cr2{ color:#cb0048}
+.m_right .myaddress .add table .cr5{ color:#b70000; font-size:14px; font-weight:bold}
+.m_right .myaddress .add table input.pw{ height:22px; width:200px;line-height:22px; border:1px solid #b8b8b8}
+.m_right .mymoney{ text-align:center; border:1px solid #ccc; height:420px; padding:20px}
+.m_right .bgmy{ background:url(../images/bgye.gif) no-repeat center center; width:725px; height:162px; padding-top:30px}
+.m_right .bgmy table{ line-height:40px}
+.m_right .bgmy td{ text-align:left}
+.m_right .bgmy .cr5{ color:#b70000}
+.m_right .bgmy .cr5 a{ color:#b70000}
+.m_right .bgmy .user_money table{ line-height:15px}
+.m_right .USERPOINTS .cr5{ font-weight:bold; color:#b70000; border:1px solid #ccc; width:150px; height:30px; line-height:30px; background-color:#fafafa; text-align:center}
+.m_right .USERPOINTS table{ padding-top:20px;}
+.m_right .USERPOINTS table td{ text-align:center; border:1px solid #ededed}
+.m_right .USERPOINTS .cr2{ color:#b70000;}
+.m_right .USERPOINTS table .pagesmoney{ padding:20px 0px 20px 10px}
+.m_right .memberzl{ padding-top:10px}
+.m_right .memberzl p{ height:25px; line-height:25px; background-color:#ededed; color:#b70000; padding-left:10px }
+.m_right .memberzl table{ line-height:30px; padding-top:10px; padding-bottom:10px}
+.m_right .memberzl table .cr2{ color:#FF699E; font-size:6px}
+.m_right .memberzl table input,.m_right .memberzl table select{ height:25px; line-height:25px; border:1px solid #B8B8B8}
+.m_right .memberzl table input.pw{ width:200px}
+.updatepass{ padding:10px; margin-top:10px; border:2px solid #ededed}
+.updatepass table{ line-height:40px;}
+.updatepass table input{ border:1px solid #b8b8b8; height:25px; line-height:25px; width:200px}
+.m_right .sc table{ line-height:25px}
+.cr2{ color:#CC3300;}
+.cr2 h2{ font-size:12px; font-weight:400}

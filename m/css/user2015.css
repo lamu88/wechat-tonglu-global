@@ -1,0 +1,38 @@
+.top_bar{ background:#eee}!important
+a{text-decoration:none;}
+li{list-style-type:none}
+
+#meCenter{background:url('/m/tpl/24/images/usertopbg.jpg') no-repeat #E58F20; margin:0px auto 10px auto; height:170px; overflow:hidden}
+#meCenter dl{width:100%;}
+#meCenter dl dt{width:40%;height:170px; float:left;}
+#meCenter dl dt img{width:100px; height:100px; border-radius:50px; margin:15%; margin-top:20px}
+#meCenter dl dd{width:60%; margin-top:15px;color:white;line-height:24px;font-size:14px;float:left}
+
+.mebar,.metext{color:#666;font-size:16px;}
+.methis{width:100%;height:40px;background:white;line-height:40px;}
+.meone{margin-top:20px;}
+.metwo{margin-top:2px;}
+
+.notice{color:Red;font-size:16px;}
+.methis .icon{width:25px;height:25px;background:url('/m/tpl/24/images/icon.png')no-repeat left center;float:left;;margin:7px 0px 0px 15px;}
+.methis .metext{float:left;padding-left:10px;}
+.methis .dayMoney{float:right;margin-right:10px;color:red}
+.methis .jt{float:right;width:13px;height:25px;background:url('/m/tpl/24/images/jiantou.png')no-repeat right center;margin:8px 15px 0px 0px;}
+
+.methis .info{background-position: 0px 0px;}
+.methis .fendian{background-position: 0px -25px;}
+.methis .caifu{background-position: 0px -51px;}
+.methis .shouyi{background-position: 0px -76px;}
+.methis .tixian{background-position: 0px -102px;}
+.methis .order{background-position: 0px -127px;}
+.methis .phone{background-position: 0px -152px;}
+.superior{text-align:center;}
+
+.median,.mecaifu{width:100%;height:70px;background:white;margin-top:2px;}
+.median ul li{width:33%;float:left;text-align:center; color:#666;}
+.median ul li p{padding-top:10px;}
+.median ul li .p2{padding-top:5px;}
+.mecaifu ul li{width:25%;float:left;text-align:center; color:#666;}
+.mecaifu ul li p{padding-top:10px; }
+.mecaifu ul li .p2{padding-top:5px;}
+.mecaifu ul li p span{color:#F00}
